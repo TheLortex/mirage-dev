@@ -1,0 +1,36 @@
+opam-version: "2.0"
+maintainer:   "anil@recoil.org"
+authors:      [
+  "Anil Madhavapeddy"
+  "David Scott"
+  "Thomas Gazagnaire"
+  "Hannes Mehnert"
+]
+homepage:    "https://github.com/mirage/mirage-net-unix"
+bug-reports: "https://github.com/mirage/mirage-net-unix/issues"
+dev-repo:    "git+https://github.com/mirage/mirage-net-unix.git"
+license:     "ISC"
+doc:         "https://mirage.github.io/mirage-net-unix/"
+
+build: [
+  [ "jbuilder" "subst"] {pinned}
+  [ "jbuilder" "build" "-p" name "-j" jobs ]
+]
+
+depends: [
+  "ocaml" {>= "4.04.2"}
+  "jbuilder"  {build & >= "1.0+beta9"}
+  "cstruct" {>= "1.7.1"}
+  "cstruct-lwt"
+  "lwt" {>= "2.4.3"}
+  "mirage-net-lwt" {>= "2.0.0"}
+  "tuntap" {>= "1.3.0"}
+  "alcotest" {with-test}
+  "logs"
+  "macaddr"
+]
+
+synopsis: "Unix implementation of the Mirage_net_lwt interface"
+url {
+  src: "git+https://github.com/hannesm/mirage-net-unix.git#revise-netif"
+}

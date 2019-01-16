@@ -1,0 +1,32 @@
+opam-version: "2.0"
+maintainer:  "Anil Madhavapeddy <anil@recoil.org>"
+authors:     "Anil Madhavapeddy <anil@recoil.org>"
+homepage:    "https://github.com/mirage/mirage-net-macosx"
+bug-reports: "https://github.com/mirage/mirage-net-macosx/issues"
+dev-repo:    "git+https://github.com/mirage/mirage-net-macosx.git"
+doc:         "https://mirage.github.io/mirage-net-macosx/"
+
+license: "ISC"
+build: [
+  [ "jbuilder" "subst" "-p" name ] {pinned}
+  [ "jbuilder" "build" "-p" name ]
+]
+
+depends: [
+  "ocaml" {>= "4.03.0"}
+  "ocamlfind" {build}
+  "jbuilder"  {build}
+  "cstruct" {>= "1.4.0"}
+  "macaddr"
+  "sexplib"
+  "logs"
+  "lwt" {>= "2.4.3"}
+  "mirage-net-lwt" {>= "2.0.0"}
+  "vmnet"
+]
+tags: "org:mirage"
+
+synopsis: "MacOS X implementation of the Mirage_net_lwt interface"
+url {
+  src: "git+https://github.com/hannesm/mirage-net-macosx.git#routing"
+}
