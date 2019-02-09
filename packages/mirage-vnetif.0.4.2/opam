@@ -23,7 +23,6 @@ depends: [
   "cstruct" {>="2.4.0"}
   "ipaddr" {>= "3.0.0"}
   "macaddr"
-  "io-page"
   "mirage-profile"
   "duration"
   "logs"
@@ -31,5 +30,5 @@ depends: [
 tags: ["org:mirage"]
 synopsis: "Virtual network interface and software switch for Mirage"
 url {
-  src: "git+https://github.com/hannesm/mirage-vnetif.git#routing"
+  src: "git+https://github.com/hannesm/mirage-vnetif.git#layering"
 }

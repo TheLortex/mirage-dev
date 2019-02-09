@@ -28,5 +28,5 @@ tags: "org:mirage"
 
 synopsis: "MacOS X implementation of the Mirage_net_lwt interface"
 url {
-  src: "git+https://github.com/hannesm/mirage-net-macosx.git#routing"
+  src: "git+https://github.com/hannesm/mirage-net-macosx.git#layering"
 }

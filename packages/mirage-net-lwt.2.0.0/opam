@@ -26,5 +26,5 @@ depends: [
 ]
 synopsis: "Network signatures for MirageOS"
 url {
-  src: "git+https://github.com/hannesm/mirage-net.git#routing"
+  src: "git+https://github.com/hannesm/mirage-net.git#layering"
 }
