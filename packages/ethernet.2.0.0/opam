@@ -23,7 +23,7 @@ depends: [
   "rresult" {>= "0.5.0"}
   "cstruct" {>= "3.0.2"}
   "mirage-net-lwt" {>= "2.0.0"}
-  "mirage-protocols-lwt" {>= "1.4.0"}
+  "mirage-protocols-lwt" {>= "2.0.0"}
   "macaddr"
   "mirage-profile" {>= "0.5"}
   "fmt"
@@ -40,5 +40,5 @@ description: """
 [Mirage operating system](https://mirage.io).
 """
 url {
-  src: "git+https://github.com/hannesm/ethernet.git#netif"
+  src: "git+https://github.com/hannesm/ethernet.git#layering"
 }
