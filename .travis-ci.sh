@@ -8,7 +8,7 @@ opam update -u
 
 opam depext -uiy mirage
 
-git clone -b layering git://github.com/hannesm/mirage-skeleton.git
+git clone -b layering https://github.com/hannesm/mirage-skeleton.git
 cd mirage-skeleton
 make MODE=${MODE}
 
