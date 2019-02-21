@@ -57,5 +57,5 @@ The name `charrua` is a reference to the, now extinct, semi-nomadic people of
 southern South America.
 """
 url {
-  src: "git+https://github.com/hannesm/charrua-core.git#layering"
+  src: "git+https://github.com/hannesm/charrua-core.git#rename-ethif"
 }

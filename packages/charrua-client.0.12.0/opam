@@ -32,5 +32,5 @@ The base library exposes a simple state machine in `Dhcp_client`
 for use in acquiring a DHCP lease.
 """
 url {
-  src: "git+https://github.com/hannesm/charrua-core.git#layering"
+  src: "git+https://github.com/hannesm/charrua-core.git#rename-ethif"
 }

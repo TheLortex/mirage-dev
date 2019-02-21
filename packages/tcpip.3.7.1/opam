@@ -64,5 +64,5 @@ system](https://mirage.io). It provides implementations for the following module
 * TCP
 """
 url {
-  src: "git+https://github.com/hannesm/mirage-tcpip.git#layering"
+  src: "git+https://github.com/hannesm/mirage-tcpip.git#rename-ethif"
 }

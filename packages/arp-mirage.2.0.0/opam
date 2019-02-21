@@ -32,5 +32,5 @@ build: [
   ["dune" "runtest" "-p" name "-j" jobs] {with-test}
 ]
 url {
-  src: "git+https://github.com/hannesm/arp.git#layering"
+  src: "git+https://github.com/hannesm/arp.git#rename-ethif"
 }

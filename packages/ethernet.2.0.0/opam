@@ -40,5 +40,5 @@ description: """
 [Mirage operating system](https://mirage.io).
 """
 url {
-  src: "git+https://github.com/hannesm/ethernet.git#layering"
+  src: "git+https://github.com/hannesm/ethernet.git#rename-ethif"
 }

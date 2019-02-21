@@ -38,5 +38,5 @@ description: """
 with the [MirageOS library operating system](https://github.com/mirage/mirage).
 """
 url {
-  src: "git+https://github.com/hannesm/charrua-core.git#layering"
+  src: "git+https://github.com/hannesm/charrua-core.git#rename-ethif"
 }

@@ -32,5 +32,5 @@ ARP is an implementation of the address resolution protocol (RFC826) purely in
 OCaml.  It handles IPv4 protocol addresses and Ethernet hardware addresses only.
 """
 url {
-  src: "git+https://github.com/hannesm/arp.git#layering"
+  src: "git+https://github.com/hannesm/arp.git#rename-ethif"
 }

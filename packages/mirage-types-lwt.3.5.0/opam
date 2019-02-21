@@ -48,5 +48,5 @@ for several that are left abstract in `mirage-types`:
 - `type ipv4addr = Ipaddr.V4.t`
 """
 url {
-  src: "git+https://github.com/hannesm/mirage.git#layering"
+  src: "git+https://github.com/hannesm/mirage.git#rename-ethif"
 }
