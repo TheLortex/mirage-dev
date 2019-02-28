@@ -55,5 +55,6 @@ conflicts: [
 tags: [ "org:mirage"]
 synopsis: "Transport Layer Security purely in OCaml"
 url {
-  src: "git+https://github.com/hannesm/ocaml-tls.git#fix"
+archive: "https://github.com/mirleft/ocaml-tls/releases/download/0.10.1/tls-0.10.1.tbz"
+checksum: "c7a963dae296fb1f7588c9b801e683c4"
 }
