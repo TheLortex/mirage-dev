@@ -8,7 +8,7 @@ opam update -u
 
 opam depext -uiy mirage
 
-git clone -b releng-3.5.0 https://github.com/hannesm/mirage-skeleton.git
+git clone https://github.com/mirage/mirage-skeleton.git
 cd mirage-skeleton
 make MODE=${MODE}
 
